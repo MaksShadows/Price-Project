@@ -17,14 +17,13 @@
             box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
             &__title {
                 width: 100px;
-                height: 67px;
                 text-align: center;
                 color: #fff;
                 margin-top: 30px;
                 font-family: 'Montserrat', sans-serif;
             }
         
-            &__title-offer {
+            &__title-text {
                 margin: 0;
                 font-size: 35px;
                 line-height: 43px;
@@ -36,7 +35,12 @@
                 line-height: 24px;
                 font-weight: 300;
             }
-        
+            .price-card:nth-child(2) .price-card__title{
+                width: 163px;
+            }
+        .price-card:nth-child(2) .price-card__title {
+            width: 176px;
+        }
             &__price {
                 font-family: 'Montserrat', sans-serif;
                 display: flex;

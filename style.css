@@ -20,13 +20,12 @@
 }
 .price .price__tables .price-card__title {
   width: 100px;
-  height: 67px;
   text-align: center;
   color: #fff;
   margin-top: 30px;
   font-family: "Montserrat", sans-serif;
 }
-.price .price__tables .price-card__title-offer {
+.price .price__tables .price-card__title-text {
   margin: 0;
   font-size: 35px;
   line-height: 43px;
@@ -36,6 +35,12 @@
   font-size: 20px;
   line-height: 24px;
   font-weight: 300;
+}
+.price .price__tables .price-card .price-card:nth-child(2) .price-card__title {
+  width: 163px;
+}
+.price .price__tables .price-card .price-card:nth-child(2) .price-card__title {
+  width: 176px;
 }
 .price .price__tables .price-card__price {
   font-family: "Montserrat", sans-serif;
