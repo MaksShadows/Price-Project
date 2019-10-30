@@ -19,22 +19,23 @@
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
 .price .price__tables .price-card__title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
   width: 100px;
-  text-align: center;
-  color: #fff;
+  height: 67px;
   margin-top: 30px;
-  font-family: "Montserrat", sans-serif;
-}
-.price .price__tables .price-card__title-text {
-  margin: 0;
+  font-weight: 700;
   font-size: 35px;
   line-height: 43px;
-  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
 }
-.price .price__tables .price-card__subtitle {
+.price .price__tables .price-card__title-s {
   font-size: 20px;
-  line-height: 24px;
   font-weight: 300;
+  line-height: 24px;
 }
 .price .price__tables .price-card:nth-child(2) {
   position: relative;
