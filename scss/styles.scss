@@ -1,16 +1,16 @@
 .wrapper {
     display: flex;
     justify-content: center;
-    margin:auto;
+    align-items: center;
+    margin: auto;
     width: 1440px;
-    height: 1000px;
-    background-color: #141B1C;
-    .price-tables{
-        width: 1170px;
+    height: 900px;
+    background-color: #000;
+    .price__tables {
         display: flex;
         justify-content: space-between;
-        margin-top: 60px;
-        .price-card{
+        width: 1170px;
+        .price-card {
             width: 380px;
             height: 770px;
             background: #334247;
@@ -18,8 +18,12 @@
             &__title {
                 display: flex;
                 flex-direction: column;
-                margin-top: 30px;
+                margin: 0 auto;
+                padding: 0;
+                width: 100px;
                 height: 67px;
+                margin-top: 30px;
+                font-family: 'Montserrat', sans-serif;
                 font-weight: 700;
                 font-size: 35px;
                 line-height: 43px;
@@ -32,11 +36,12 @@
                 }
             }
             &__price {
+                font-family: 'Montserrat', sans-serif;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 margin-top: 36px;
-                width: 100%;
+                width: 380px;
                 height: 104px;
                 font-weight: 700;
                 font-size: 55px;
@@ -55,41 +60,14 @@
                 background-color: #EC632A;
                 }
             }
+
             &__description {
-                margin: 39px 26px;
+                margin: 39px 26px 0;
                 font-weight: 300;
                 font-size: 15px;
                 line-height: 18px;
                 text-align: center;
                 color: #FFFFFF;
-            }
-            &__order-btn {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 0 auto;
-                margin-top: 37px;
-                margin-bottom: 42px;
-                width: 155px;
-                height: 40px;
-                font-size: 15px;
-                font-weight: 400;
-                line-height: 17px;
-                background: #5BB189;
-                border-radius: 20px;
-                border: none;
-                color: #fff;
-                text-transform: uppercase;
-            }
-            &:nth-child(2){
-                .price-card__order-btn{
-                background-color: #3A6BA5;
-            }
-            }
-            &:nth-child(3){
-                .price-card__order-btn{
-                background-color:  #EC632A;
-                }
             }
             .options-list {
                 margin-top: 42px;
@@ -118,7 +96,8 @@
                 height: 13px;
                 width: 15px;
             }
-            &:nth-child(1){
+
+              &:nth-child(1){
                 .icon-list-item{
                     background-image:url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
                 }
@@ -126,7 +105,6 @@
             &:nth-child(2){
                 .icon-list-item{
                  background-image:url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
-                background-image:url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
                 }
             }
             &:nth-child(3){
@@ -134,8 +112,36 @@
                 background-image:url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
                 }
             }
+
+            &__order-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                margin-top: 37px;
+                margin-bottom: 42px;
+                width: 155px;
+                height: 40px;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 17px;
+                background: #5BB189;
+                border-radius: 20px;
+                border: none;
+                color: #fff;
+            }
+            &:nth-child(2) {
+                .price-card__order-btn {
+                    background-color:  #3A6BA5;
+                }
+            }
+            &:nth-child(3) {
+                .price-card__order-btn {
+                    background-color: #EC632A;
+                }
+            }
         }
-    } 
+    }
 }
 
 .popular {
