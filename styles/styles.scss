@@ -35,12 +35,12 @@
                 line-height: 24px;
                 font-weight: 300;
             }
-            .price-card:nth-child(2) .price-card__title{
+            .price-card__title:nth-child(2){
                 width: 163px;
             }
-        .price-card:nth-child(2) .price-card__title {
+            .price-card__title:nth-child(3) {
             width: 176px;
-        }
+            }
             &__price {
                 font-family: 'Montserrat', sans-serif;
                 display: flex;
