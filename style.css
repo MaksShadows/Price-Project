@@ -43,6 +43,10 @@
   width: 163px;
   height: 67px;
 }
+.price .price__tables .price-card:nth-child(3) .price-card__title {
+  width: 175px;
+  height: 67px;
+}
 .price .price__tables .price-card__price {
   font-family: "Montserrat", sans-serif;
   display: flex;
